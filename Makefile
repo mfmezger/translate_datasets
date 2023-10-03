@@ -1,0 +1,2 @@
+start:
+	prefect server start
