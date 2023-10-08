@@ -11,14 +11,27 @@ translator = Translator("seamlessM4T_medium", "vocoder_36langs", torch.device("c
 
 
 def translate(text):
-    # call the ollama rest service with the instruction
-    try:
-        translated_text, _, _ = translator.predict(text, "t2tt", "deu", src_lang="eng")
-    except ValueError:
-        # split at every dot and translate every sentence
-        translated_text = ""
-        for sentence in text.split("."):
-            translated_text += str(translator.predict(sentence, "t2tt", "deu", src_lang="eng")[0]) + ". "
+    # try:
+    # text = text.replace("..", ".")
+    # text = text.replace("...", ".")
+    # # remove double space
+    # text = text.replace("  ", " ")
+    # text = text.replace("   ", " ")
+    translated_text, _, _ = translator.predict(text, "t2tt", "deu", src_lang="eng")
+    # except ValueError as e:
+    # print(e)
+    # first remove multiple dots and replace them with one dot
+    # text = text.replace("..", ".")
+    # text = text.replace("...", ".")
+    # # remove double space
+    # text = text.replace("  ", " ")
+    # text = text.replace("   ", " ")
+
+
+    # split at every dot and translate every sentence
+    # translated_text = ""
+    # for sentence in text.split("."):
+    #     translated_text += str(translator.predict(sentence, "t2tt", "deu", src_lang="eng")[0]) + ". "
                     
     return str(translated_text)
 
@@ -33,7 +46,7 @@ def start_conversion(folder: str, file: str):
         data = json.load(json_file)
 
 
-        i = 0
+        # i = 0
         for d in tqdm(data):
             instuction = translate(d["instruction"])
             input = translate(d["input"])
@@ -49,11 +62,11 @@ def start_conversion(folder: str, file: str):
                 "output_org": d["output"]
             })
 
-            i += 1
+            # i += 1
 
             # only try 30 instructions
-            if i > 5:
-                break
+            # if i > 5:
+                # break
 
 
     # save the translated json file format utf-8
@@ -64,7 +77,12 @@ def start_conversion(folder: str, file: str):
 
 # @flow(name="llm_translate")
 def dataset_preprocessing(folder):
+    i = 0
     for file in os.listdir(folder):
+        print(f"start conversion of {file}")
+        i += 1
+        if i < 4:
+            continue
         start_conversion(folder=folder, file=file)    
 
 # run the flow!

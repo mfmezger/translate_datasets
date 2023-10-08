@@ -1,13 +1,7 @@
-from transformers import pipeline
-import torch
+import pandas as pd 
 
-system_prompt = """<|im_start|>system
-Dies ist eine Unterhaltung zwischen einem intelligenten, hilfsbereitem KI-Assistenten und einem Nutzer.
-Der Assistent gibt ausführliche, hilfreiche und ehrliche Antworten.<|im_end|>
+# load json file
+df = pd.read_json("final/deu-medical_meadow_mmmlu.json")
 
-"""
-prompt_format = "<|im_start|>user\n{prompt}<|im_end|>\n<|im_start|>assistant\n"
-prompt = "Erkläre mir wie die Fahrradwegesituation in Hamburg ist."
-
-generator = pipeline(model="LeoLM/leo-hessianai-7b-chat-bilingual", device="cuda", torch_dtype=torch.float16, trust_remote_code=True) # True for flash-attn2 else False
-print(generator(prompt_format.format(prompt=prompt), do_sample=True, top_p=0.95, max_length=8192))
+# convert to csv
+df.to_csv("mmlu.csv", index=False)
