@@ -1,0 +1,50 @@
+[
+    {
+        "instruction": "Frage: Beschreibt das eine (1) direkt korelative Beziehung, (2) bedingte kausative Beziehung, (3) kausative Beziehung oder (0) keine Beziehung?",
+        "input": "Eine bei der Aufnahme berechnete McMahon-Score von mindestens 6 ermöglicht eine empfindlichere, spezifischer und zeitgerechte Identifizierung von Patienten, die von einer hohen Volumenflüssigkeitsresuscitation profitieren können.",
+        "output": "Das ist eine direkt korelative Beziehung.",
+        "instuction_org": "Question: Is this describing a (1) directly correlative relationship, (2) conditionally causative relationship, (3) causative relationship, or (0) no relationship.",
+        "input_org": "A McMahon score of at least 6 calculated on admission allows for a more sensitive, specific and timely identification of patients who may benefit from high-volume fluid resuscitation.",
+        "output_org": "This is a directly correlative relationship"
+    },
+    {
+        "instruction": "Frage: Beschreibt das eine (1) direkt korelative Beziehung, (2) bedingte kausative Beziehung, (3) kausative Beziehung oder (0) keine Beziehung?",
+        "input": "Der rs7903146 (C/T) -Polymorphismus des TCF7L2-Gens könnte nicht mit Fettleibigkeit in der kamerunischen Bevölkerung in Verbindung gebracht werden.",
+        "output": "Dies ist eine bedingte kausale Beziehung.",
+        "instuction_org": "Question: Is this describing a (1) directly correlative relationship, (2) conditionally causative relationship, (3) causative relationship, or (0) no relationship.",
+        "input_org": "The rs7903146 (C/T) polymorphism of the TCF7L2 gene might not be associated with obesity in the Cameroonian population.",
+        "output_org": "This is a conditionally causative relationship"
+    },
+    {
+        "instruction": "Frage: Beschreibt das eine (1) direkt korelative Beziehung, (2) bedingte kausative Beziehung, (3) kausative Beziehung oder (0) keine Beziehung?",
+        "input": "Ein Fünftel der Patienten mit einem negativen CDS der TAs hatte Anzeichen von Vaskulitis auf dem CDS der FaA, oder OcA.",
+        "output": "Dies ist eine bedingte kausale Beziehung.",
+        "instuction_org": "Question: Is this describing a (1) directly correlative relationship, (2) conditionally causative relationship, (3) causative relationship, or (0) no relationship.",
+        "input_org": "A fifth of patients with a negative CDS of the TAs had signs of vasculitis on the CDS of the FaA, or OcA.",
+        "output_org": "This is a conditionally causative relationship"
+    },
+    {
+        "instruction": "Frage: Beschreibt das eine (1) direkt korelative Beziehung, (2) bedingte kausative Beziehung, (3) kausative Beziehung oder (0) keine Beziehung?",
+        "input": "Wir beobachteten einen Zusammenhang zwischen EH/EC und einer Geschichte von Schwangerschaftsdiabetes, der spezifisch für jüngere Frauen ist.",
+        "output": "Dies ist eine bedingte kausale Beziehung.",
+        "instuction_org": "Question: Is this describing a (1) directly correlative relationship, (2) conditionally causative relationship, (3) causative relationship, or (0) no relationship.",
+        "input_org": "We observed an association between EH/EC and a history of gestational diabetes specific to younger women.",
+        "output_org": "This is a conditionally causative relationship"
+    },
+    {
+        "instruction": "Frage: Beschreibt das eine (1) direkt korelative Beziehung, (2) bedingte kausative Beziehung, (3) kausative Beziehung oder (0) keine Beziehung?",
+        "input": "Das CHA2DS2-VASc- Werkzeug vorhersagt thromboembolische Ereignisse und die allgemeine Mortalität bei Patienten ohne Atriumfibrillation, die implantierbare Geräte haben.",
+        "output": "Dies ist eine bedingte kausale Beziehung.",
+        "instuction_org": "Question: Is this describing a (1) directly correlative relationship, (2) conditionally causative relationship, (3) causative relationship, or (0) no relationship.",
+        "input_org": "The CHA2DS2-VASc tool predicts thromboembolic events and overall mortality in patients without atrial fibrillation who have implantable devices.",
+        "output_org": "This is a conditionally causative relationship"
+    },
+    {
+        "instruction": "Frage: Beschreibt das eine (1) direkt korelative Beziehung, (2) bedingte kausative Beziehung, (3) kausative Beziehung oder (0) keine Beziehung?",
+        "input": "\"Diese Studie liefert Querschnittdaten, die die Existenz der IRS bei einheimischen Hawaiianern bestätigen\".",
+        "output": "Das ist eine direkt korelative Beziehung.",
+        "instuction_org": "Question: Is this describing a (1) directly correlative relationship, (2) conditionally causative relationship, (3) causative relationship, or (0) no relationship.",
+        "input_org": "\"This study provides cross-sectional data confirming the existence of the IRS in native Hawaiians.\"",
+        "output_org": "This is a directly correlative relationship"
+    }
+]

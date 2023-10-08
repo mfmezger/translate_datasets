@@ -1,0 +1,50 @@
+[
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Können Sie einen Überblick über das Pflasterzellkarzinom der Lunge liefern?",
+        "output": "Squamous Cell Carcinoma der Lunge kann nach dem histologischen Klassifizierungssystem der WHO in 4 Haupttypen eingeteilt werden: papillary, clear cell, small cell und basaloid.",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "Can you provide an overview of the lung's squamous cell carcinoma?",
+        "output_org": "Squamous cell carcinoma of the lung may be classified according to the WHO histological classification system into 4 main types: papillary, clear cell, small cell, and basaloid."
+    },
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Was bedeutet \"Clear: Cell\"?",
+        "output": "Kleine Zelltumore gehören zur oberflächlichen epithelial-stromalen Tumorgruppe von Eierstockkrebsen und stellen 6% dieser Neoplastikfälle dar. Kleine Zelltumore sind auch mit der Bauchspeicheldrüse und den Speicheldrüsen verbunden. Gutartige und Grenzvarianten dieses Neoplasmas sind selten, und die meisten Fälle sind bösartige. Typischerweise handelt es sich um zystische Neoplasmen mit Polypoidmassen, die in die Zyste aussteigen. Bei mikroskopischen pathologischen Untersuchungen bestehen sie aus Zellen mit klarem Zytoplasma (die Glykogen enthält) und Nagelzellen (von denen das Glykogen abgelassen wurde).",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "What does \"Clear: cell\" mean?",
+        "output_org": "Clear cell tumors are part of the surface epithelial-stromal tumor group of Ovarian cancers, accounting for 6% of these neoplastic cases. Clear cell tumors are also associated with the pancreas and salivary glands.\nBenign and borderline variants of this neoplasm are rare, and most cases are malignant.\nTypically, they are cystic neoplasms with polypoid masses that protrude into the cyst.\nOn microscopic pathological examination, they are composed of cells with clear cytoplasm (that contains glycogen) and hob nail cells (from which the glycogen has been secreted).\nThe pattern may be glandular, papillary or solid."
+    },
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Können Sie mir Informationen über Statine zur Verfügung stellen?",
+        "output": "Zwei japanische Wissenschaftler begannen 1971 mit der Ermittlung von HMG-CoA-Reduktase-Inhibitoren, weil sie argumentierten, dass Organismen solche Produkte produzieren könnten, da das Enzym in einigen wesentlichen Zellwandkomponenten wichtig ist. Diese Arbeit führte zur Identifizierung der ersten klinisch nützlichen Verbindung Lovastatin (Mevinolin) aus einer Form in der Mitte der 1970er. Dieses Mittel wurde erstmals in den schwereren Formen von Hypercholesterämie in den 1980er Jahren verwendet, gefolgt von Wahrzeichenversuchen mit Simvastatin, die das Potenzial für Cardio-Prävention zeigten.",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "Can you provide me with information regarding statins?",
+        "output_org": "Two Japanese scientists commenced research into inhibitors of HMG-CoA reductase in 1971 reasoning that organisms might produce such products as the enzyme is important in some essential cell wall components. This work lead to the identification of the first clinically useful compound lovastatin(mevinolin)  from a mould in the mid 1970's. This agent was first used in the more severe forms of hypercholesteraemia in the 1980s followed by landmark trials  with simvastatin that showed the potential for cardio-prevention. Cerivastatin was withdrawn in 2001 because of a ten times higher incidence of rhabdomyolysis than the other statins."
+    },
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Was sind der historische Hintergrund und die Symptome von Candida-indukter Vulvovaginitis?",
+        "output": "Die Symptome von Vulvovaginitis, die durch Candida-Arten verursacht werden, sind unverwechselbar und umfassen Folgendes: Pruritus ist das bedeutendste Symptom. Veränderung der Menge und der Farbe der Vaginal-Abströmung: Es zeichnet sich durch einen dicken, weißen, \"Cottage Cheese-ähnlichen\" Vaginal-Abströmung aus. Schmerzen beim Urin (Dysurie) Schmerzen beim Geschlechtsverkehr (Dyspareunia)",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "What are the historical background and symptoms of Candida-induced vulvovaginitis?",
+        "output_org": "Symptoms of vulvovaginitis caused by Candida species are indistinguishable and include the following:   \nPruritus is the most significant symptom Change in the amount and the color of vaginal discharge: It is characterized by a thick, white \"cottage cheese-like\" vaginal discharge Pain on urination (dysuria) Pain on sexual intercourse (dyspareunia) Vulvovaginal soreness Symptoms aggravate a week before the menses"
+    },
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Was bezieht sich der \"Hypotension: Resident Survival Guide\" auf?",
+        "output": "Hypotension ist der Begriff für niedriger Blutdruck (BP). Eine systolische Blutdruck, die weniger als 90mmHg und/oder diastolische Blutdruck mit weniger als 60mmHg beträgt, wird als Hypotension angesehen. Eine Differenz von 20 mmHg systolischer Blutdruck und 10 mmHg diastolischer Blutdruck wird als orthostatische Hypotension (OH) angesehen. Orthostatische Hypotension ist die häufigste Art von Hypotension, und eine neurogene Hypotension wird normalerweise bei 1/3 der Personen mit einer Strategie gezeigt. Eine Blutdruckdrücke kann lebensbedrohlich sein bei wesentlichen Erkrankungen wie Anaphylaxis und Addition und Krise.",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "What does the \"Hypotension: Resident Survival Guide\" refer to?",
+        "output_org": "Hypotension is the term for low blood pressure (BP). A systolic BP measuring less than 90mmHg and/ or diastolic BP of less than 60mmHg is considered hypotension. A difference of 20 mmHg systolic BP and 10 mmHg diastolic BP is considered orthostatic hypotension (OH). Orthostatic hypotension is the most common type of hypotension, and neurogenic hypotension is demonstrated among 1/3rd of the individuals with OH. A decrease in blood pressure can be life-threatening in conditions such as anaphylaxis and addisonian crisis, and requires prompt treatment. It is important to access the possibility of head injury in a patient with syncope due to hypotension. ECG is an important and essential component of the evaluation of hypotension. Shock requires prompt management with fluids and vasopressors. For other causes of hypotension, identifying the cause and treatment is the best strategy. Lifestyle modifications are usually the first step in management. Medications causing a drop in blood pressure should be discontinued or changed to an appropriate alternative."
+    },
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Wie sind Krankenhäuser auf Ebola vorbereitet?",
+        "output": "Akute Gesundheitsversorgungseinrichtungen können eine von drei Rollen erfüllen: Frontline-Gesundheitsversorgungseinrichtungen, Ebola-Beurteilungskrankenhäuser und Ebola-Behandlungszentren. Um einen koordinierten, vernetzten Ansatz zu schaffen, können staatliche und lokale Gesundheitsbeamte in Zusammenarbeit mit Krankenhäusern und Gesundheitsversorgungseinrichtungen Gesundheitsversorgungseinrichtungen im ganzen Bundesstaat benennen, um in einer der drei vorgeschlagenen Rollen zu dienen, die in diesem Leitfaden beschrieben sind. Während ein dreistufiger Ansatz nicht obligatorisch ist, wurde es dringend empfohlen, Ebola-Behandlungskrankenhäuser zu identifizieren, die erfolgreich verwalten können, bis eine Ebola-EVD-Diagnose entweder bestätigt oder ausgeschlossen wird.",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "How prepared are hospitals for Ebola?",
+        "output_org": "Acute healthcare facilities can serve one of three roles: frontline healthcare facilities, Ebola assessment hospitals, and Ebola treatment centers. To create a coordinated, networked approach, state and local health officials, in collaboration with hospital and healthcare facility executives, may designate healthcare facilities across the state to serve in one of three suggested roles outlined in this guidance document. Whereas a three-tiered approach is not obligatory, it strongly encouraged to identify Ebola assessment hospitals that can successfully manage PUIs until an EVD diagnosis is either confirmed or ruled out while awaiting transfer to an Ebola treatment center."
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Was ist die Beziehung zwischen sehr niedrigen Mg2+-Ebenen, PTH-Ebenen und Ca2+-Ebenen?",
+        "output": "Sehr niedrige Mg2+-Spiegel entsprechen niedrigen PTH-Spiegeln, was wiederum zu niedrigen Ca2+-Spiegeln führt.",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "What is the relationship between very low Mg2+ levels, PTH levels, and Ca2+ levels?",
+        "output_org": "Very low Mg2+ levels correspond to low PTH levels which in turn results in low Ca2+ levels."
+    },
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Was führt zum Genitourinarsyndrom der Menopause (atrophischer Vaginitis)?",
+        "output": "Niedrige Estradiolproduktion führt zum Genitourinarsyndrom der Menopause (atrophische Vaginitis).",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "What leads to genitourinary syndrome of menopause (atrophic vaginitis)?",
+        "output_org": "Low estradiol production leads to genitourinary syndrome of menopause (atrophic vaginitis)."
+    },
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Was deutet eine geringe REM-Schlaf latenz und das Erleben von Halluzinationen/Schlafparalysis auf?",
+        "output": "Niedrige REM-Schlaflatenz und Halluzinationen/Schlafparalysis deuten auf Narkolepsie hin.",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "What does low REM sleep latency and experiencing hallucinations/sleep paralysis suggest?",
+        "output_org": "Low REM sleep latency and experiencing hallucinations/sleep paralysis suggests narcolepsy."
+    },
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Was sind einige mögliche Ursachen für niedrige PTH und hohe Kalziumspiegel?",
+        "output": "PTH- unabhängige Hypercalzämie, die durch Krebs, Granulomatous-Krankheit oder Vitamin-D-Vergiftung verursacht werden kann.",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "What are some possible causes of low PTH and high calcium levels?",
+        "output_org": "PTH-independent hypercalcemia, which can be caused by cancer, granulomatous disease, or vitamin D intoxication."
+    },
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Wie bezieht sich der Niveau des Anti-Müller-Hormons auf den Eierstockreserven?",
+        "output": "Der Niveau des anti-müllerischen Hormons ist direkt mit der Eierstockreserve verbunden - ein niedrigerer Niveau deutet auf eine niedrigere Eierstockreserve hin.",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "How does the level of anti-müllerian hormone relate to ovarian reserve?",
+        "output_org": "The level of anti-müllerian hormone is directly related to ovarian reserve - a lower level indicates a lower ovarian reserve."
+    },
+    {
+        "instruction": "Beantwort diese Frage wahrhaftig.",
+        "input": "Was deutet die geringe Mobilität und die Auspuffung von TM auf?",
+        "output": "Niedrige Mobilität und Auspuffung von TM ist ein Hinweis auf akute Otitis-Medien.",
+        "instuction_org": "Answer this question truthfully",
+        "input_org": "What does low Mobility and bulging of TM suggest?",
+        "output_org": "Low Mobility and bulging of TM is suggestive of Acute otitis media."
+    }
+]

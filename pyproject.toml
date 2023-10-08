@@ -14,6 +14,10 @@ transformers = "^4.34.0"
 tqdm = "^4.66.1"
 jinja2 = "^3.1.2"
 torch = "^2.1.0"
+sentencepiece = "^0.1.99"
+packaging = "^23.2"
+ninja = "^1.11.1"
+langchain = "^0.0.310"
 
 
 [build-system]

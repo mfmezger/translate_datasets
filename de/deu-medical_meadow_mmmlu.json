@@ -1,0 +1,50 @@
+[
+    {
+        "instruction": "Bitte beantworten Sie den Optionsbrief wahrhaftig.",
+        "input": "Q:London-Dispersionskräfte werden durch? A:vorübergehende Dipolen, die durch die Position der Elektronen um die Kerne in einem Molekül erzeugt werden;B:die dreidimensionale intermolekuläre Bindung, die in allen kovalenten Substanzen vorhanden ist;C:die ungleichmäßige Verhältnis zwischen Elektronen und Protonen, die auf einzelnen Atomen eines Moleküls gefunden werden;D:die Differenzen zwischen den verschiedenen Atomen in einem Molekül",
+        "output": "Die A.",
+        "instuction_org": "Please answer the letter of option truthfully",
+        "input_org": "Q:London dispersion forces are caused by? \nA:temporary dipoles created by the position of electrons around the nuclei in a molecule;B:the three-dimensional intermolecular bonding present in all covalent substances;C:the uneven electron-to-proton ratio found on individual atoms of a molecule;D:the electronegativity differences between the different atoms in a molecule",
+        "output_org": "A"
+    },
+    {
+        "instruction": "Bitte beantworten Sie den Optionsbrief wahrhaftig.",
+        "input": "Q: Kohlenstoff hat einen Atomradius von 77 pm und eine erste Ionierungsenergie von 1086 kJ/mol. A: 70 pm, 1402 kJ/mol; B: 86 pm, 898 kJ/mol; C: 135 pm, 523 kJ/mol; D:40 pm, 995 kJ/mol",
+        "output": "Die A.",
+        "instuction_org": "Please answer the letter of option truthfully",
+        "input_org": "Q:Carbon has an atomic radius of 77 pm and a first ionization energy of 1086 kJ/mol.? \nA:70 pm, 1402 kJ/mol;B:86 pm, 898 kJ/mol;C:135 pm, 523 kJ/mol;D:40 pm, 995 kJ/mol",
+        "output_org": "A"
+    },
+    {
+        "instruction": "Bitte beantworten Sie den Optionsbrief wahrhaftig.",
+        "input": "Q:Eine unbekannte Substanz hat einen hohen Schmelzpunkt. Darüber hinaus ist sie ein schlechter Leiter von Elektrizität und löst sich nicht in Wasser auf. Die Substanz enthält höchstwahrscheinlich A:Ionenbindung;B:nichtpolarer kovalenter Bindung;C:kovalentnetzbindung;D:Metallbindung",
+        "output": "C",
+        "instuction_org": "Please answer the letter of option truthfully",
+        "input_org": "Q:An unknown substance is found to have a high melting point. In addition, it is a poor conductor of electricity and does not dissolve in water. The substance most likely contains? \nA:ionic bonding;B:nonpolar covalent bonding;C:covalent network bonding;D:metallic bonding",
+        "output_org": "C"
+    },
+    {
+        "instruction": "Bitte beantworten Sie den Optionsbrief wahrhaftig.",
+        "input": "A:Ag+(aq) + Br-(aq) → AgBr(s); QB:NH4+(aq) + Ag+(aq) → Ag(NH4):C:Br-(aq) + NO3-(aq) → NO3Br(aq); NOD: NOBr4aq(() + NONH4NO3(aq) → NH4NO3(aq) + Br-(aq)",
+        "output": "Die A.",
+        "instuction_org": "Please answer the letter of option truthfully",
+        "input_org": "Q:The net ionic equation expected when solutions of NH4Br and AgNO3 are mixed together is? \nA:Ag+(aq) + Br-(aq) → AgBr(s);B:NH4+(aq) + Ag+(aq) → Ag(NH4)3+2(aq);C:Br-(aq) + NO3-(aq) → NO3Br(aq);D:NH4Br(aq) + NO3-(aq) → NH4NO3(aq) + Br-(aq)",
+        "output_org": "A"
+    },
+    {
+        "instruction": "Bitte beantworten Sie den Optionsbrief wahrhaftig.",
+        "input": "Q: Das Symbol für Antimon ist? A:W;B:Sb;C:Fe;D:An",
+        "output": "B.",
+        "instuction_org": "Please answer the letter of option truthfully",
+        "input_org": "Q:The symbol for antimony is? \nA:W;B:Sb;C:Fe;D:An",
+        "output_org": "B"
+    },
+    {
+        "instruction": "Bitte beantworten Sie den Optionsbrief wahrhaftig.",
+        "input": "Q: Ein versiegeltes, starres Behälter enthält drei Gase: 28,0 g Stickstoff, 40,0 g Argon und 36,0 g Wasserdampf. Wenn der gesamte Druck, den die Gase ausüben, 2,0 atm ist, was ist der Teildruck des Stickstoffs?? A:0.33 atm;B:0.40 atm;C:0.50 atm;D:0.2.",
+        "output": "C",
+        "instuction_org": "Please answer the letter of option truthfully",
+        "input_org": "Q:A sealed, rigid container contains three gases: 28.0 g of nitrogen, 40.0 g of argon, and 36.0 g of water vapor. If the total pressure exerted by the gases is 2.0 atm, what is the partial pressure of the nitrogen?? \nA:0.33 atm;B:0.40 atm;C:0.50 atm;D:2.0 atm",
+        "output_org": "C"
+    }
+]
