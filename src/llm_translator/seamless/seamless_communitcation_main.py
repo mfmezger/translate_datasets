@@ -12,27 +12,7 @@ translator = Translator("seamlessM4T_medium", "vocoder_36langs", torch.device("c
 
 def translate(text):
     # try:
-    # text = text.replace("..", ".")
-    # text = text.replace("...", ".")
-    # # remove double space
-    # text = text.replace("  ", " ")
-    # text = text.replace("   ", " ")
     translated_text, _, _ = translator.predict(text, "t2tt", "deu", src_lang="eng")
-    # except ValueError as e:
-    # print(e)
-    # first remove multiple dots and replace them with one dot
-    # text = text.replace("..", ".")
-    # text = text.replace("...", ".")
-    # # remove double space
-    # text = text.replace("  ", " ")
-    # text = text.replace("   ", " ")
-
-
-    # split at every dot and translate every sentence
-    # translated_text = ""
-    # for sentence in text.split("."):
-    #     translated_text += str(translator.predict(sentence, "t2tt", "deu", src_lang="eng")[0]) + ". "
-                    
     return str(translated_text)
 
 
@@ -44,7 +24,6 @@ def start_conversion(folder: str, file: str):
     # open the json file
     with open(f"{folder}/{file}", "r") as json_file:
         data = json.load(json_file)
-
 
         # i = 0
         for d in tqdm(data):

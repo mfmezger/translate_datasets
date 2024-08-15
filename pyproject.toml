@@ -1,25 +1,26 @@
-[tool.poetry]
-name = "llm-translate"
+[project]
+name = "llm-translator"
 version = "0.1.0"
-description = ""
-authors = ["Marc Mezger <marc.mezger@gmail.com>"]
+description = "A repository to bulk translate datasets using Tools like LLMs or other stuff."
+authors = [
+    { name = "Marc Fabian Mezger", email = "57255687+mfmezger@users.noreply.github.com" }
+]
+dependencies = [
+    "langchain-google-vertexai>=1.0.8",
+]
 readme = "README.md"
-packages = [{include = "llm_translate"}]
-
-[tool.poetry.dependencies]
-python = ">=3.11,<3.13"
-prefect = "^2.13.4"
-pandas = "^2.1.1"
-transformers = "^4.34.0"
-tqdm = "^4.66.1"
-jinja2 = "^3.1.2"
-torch = "^2.1.0"
-sentencepiece = "^0.1.99"
-packaging = "^23.2"
-ninja = "^1.11.1"
-langchain = "^0.0.310"
-
+requires-python = ">= 3.8"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/llm_translator"]
